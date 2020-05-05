@@ -1,0 +1,61 @@
+# Automatically generated on 2020-03-16 UTC from https://codemagic.io/app/5e6e36652c964627bafcc6d1/settings
+# Note that this configuration is not an exact match to UI settings. Review and adjust as necessary.
+
+workflows:
+  default-workflow:
+    name: Default Workflow
+    environment:
+      vars:
+        AWS_ACCESS_KEY_ID: Encrypted(Z0FBQUFBQmVidThma2hGM3pUeW1hYTlkWW45cks2dV9iaU42SUNuYXhTbHh5WWx6SEJ0S0tOVFdXXzVTcm1wb3pQUHFaX05fbGFYNnljeHlMbkpHemtPaFRfQmJDdGNpM2ZRcWk1eV9uX2stb1EwSVZrajFQaW89)
+        AWS_SECRET_ACCESS_KEY: Encrypted(Z0FBQUFBQmVidThmdG5KVWF0MHkyU1FXNXZJUE1ZcnJ4UzBLcjhWMmJ0RmIxVU53Y2VRNEZrRFdGNThRNzgwaHNST28wWm9WWi1vRDVIZkJHTURsZ2VmTjNFVHdUZWxVRGJTSThWWUJGZWlUeElXWE5pVjREY1Nib25EQkd6ODR5QlBiWUVPMDNVUEs=)
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+    triggering:
+      events:
+        - pull_request
+      branch_patterns:
+        - pattern: '*'
+          include: true
+          source: true
+    scripts:
+      - |
+        # set up debug keystore
+        rm -f ~/.android/debug.keystore
+        keytool -genkeypair \
+          -alias androiddebugkey \
+          -keypass android \
+          -keystore ~/.android/debug.keystore \
+          -storepass android \
+          -dname 'CN=Android Debug,O=Android,C=US' \
+          -keyalg 'RSA' \
+          -keysize 2048 \
+          -validity 10000
+      - |
+        # set up local properties
+        echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
+      - flutter packages pub get
+      - flutter test
+      - |
+        #!/bin/sh
+
+        set -e
+        set -x
+
+        cd $FCI_BUILD_DIR
+        sudo pip3 install awscli --upgrade
+        aws s3 sync TEST s3://app-builds-pk
+      - flutter build apk --debug
+      - find . -name "Podfile" -execdir pod install \;
+      - flutter build ios --debug --no-codesign
+    artifacts:
+      - build/**/outputs/**/*.apk
+      - build/**/outputs/**/*.aab
+      - build/**/outputs/**/mapping.txt
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - flutter_drive.log
+    publishing:
+      email:
+        recipients:
+          - yadavrahul807@gmail.com

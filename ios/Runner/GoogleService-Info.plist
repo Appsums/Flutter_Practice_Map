@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CLIENT_ID</key>
+    <string>113415083847-bi5cnna74cv2vm0s8i8cbd9clsgoj9r1.apps.googleusercontent.com</string>
+    <key>REVERSED_CLIENT_ID</key>
+    <string>com.googleusercontent.apps.113415083847-bi5cnna74cv2vm0s8i8cbd9clsgoj9r1</string>
+    <key>ANDROID_CLIENT_ID</key>
+    <string>113415083847-27i5ijc06k4dsage3vn7b80r738iv83e.apps.googleusercontent.com</string>
+    <key>API_KEY</key>
+    <string>AIzaSyBicoG7kQncNiFvWkGyKhO8q0q2RiIyCAo</string>
+    <key>GCM_SENDER_ID</key>
+    <string>113415083847</string>
+    <key>PLIST_VERSION</key>
+    <string>1</string>
+    <key>BUNDLE_ID</key>
+    <string>com.powerkick.cykcorp</string>
+    <key>PROJECT_ID</key>
+    <string>powerkick-1fd94</string>
+    <key>STORAGE_BUCKET</key>
+    <string>powerkick-1fd94.appspot.com</string>
+    <key>IS_ADS_ENABLED</key>
+    <false></false>
+    <key>IS_ANALYTICS_ENABLED</key>
+    <false></false>
+    <key>IS_APPINVITE_ENABLED</key>
+    <true></true>
+    <key>IS_GCM_ENABLED</key>
+    <true></true>
+    <key>IS_SIGNIN_ENABLED</key>
+    <true></true>
+    <key>GOOGLE_APP_ID</key>
+    <string>1:113415083847:ios:737c7aca4703dd075d5e62</string>
+    <key>DATABASE_URL</key>
+    <string>https://powerkick-1fd94.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,4 @@
+
+#Add below dependencies in pubspec.yaml file
+ http: 0.12.0+2
+ connectivity: 0.4.2

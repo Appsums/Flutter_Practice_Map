@@ -1,0 +1,156 @@
+/*
+  Localizable.strings
+  PowerKick
+
+  Created by Shannon Yang on 2019/12/5.
+  Copyright © 2019 Yunhong Technology (Shenzhen) Co.,Ltd. All rights reserved.
+*/
+
+// login
+"Sign in" = "로그인";
+"Send" = "전송";
+"Please enter the phone number" = "휴대폰 번호를 입력해주세요.";
+"Please enter a valid phone number" = "유효한 휴대폰 번호를 입력해주세요.";
+"Enter SMS verification code" = "인증번호";
+"Agree to the《User Agreement》 and log in" = "이용약관에 동의 후 로그인하세요.";
+"Send failed, please try again" = "발송할 수 없습니다, 다시 시도해주세요.";
+"User Agreement" = "이용약관";
+"Network error, please try again later" = "네트워크 오류, 나중에 다시 시도해주세요.";
+"Please enter a valid mobile phone number" = "유효한 전화번호를 입력하세요.";
+"Please get a verification code first" = "인증번호를 먼저 받아주세요.";
+"Verification code sent to your phone" = "인증번호가 휴대폰으로 전송되었습니다.";
+"Please agree to the user agreement" = "이용약관에 동의해주세요.";
+
+
+// map
+"SCAN" = "대여하기";
+"Search for nearby PowerKick" = "가까운 파워킥 찾기";
+"No search results" = "결과가 없습니다.";
+
+// scan
+"Scan QR code" = "QR코드 스캔";
+"QR code is empty" = "QR코드 인식 실패";
+"Tap to scan again" = "다시 스캔하기";
+"Rental success" = "대여 완료!";
+"Nearby businesses" = "내 주변 파워킥";
+"Search for nearby businesses" = "내 주변 파워킥 찾기";
+"Please enter a search term of 1-30 characters" = "검색어를 입력해주세요.";
+"Settings allow camera access" = "카메라 기능을 활성화해주세요.";
+"Put the QR code in the scan box \n to scan automatically" = "스테이션의 QR코드를 스캔해주세요.";
+
+// store
+"Outlet Details" = "제휴업체 정보";
+"km" = "km";
+"Business hours" = "영업시간";
+"Outlet type" = "제휴업체 분류";
+"Service Line" = "서비스 전화";
+"Can borrow" = "대여가능";
+"Can return" = "돌아올 수있다";
+"Total" = "전체";
+
+// mine
+"Avatar" = "프로필";
+"Nick Name" = "닉네임";
+"Phone Number" = "전화번호";
+"Photo album" = "사진첩";
+"Take a picture" = "사진을 촬영해주세요.";
+"Go to set" = "설정으로 이동";
+"Camera not available" = "카메라가 활성화 되어있지 않습니다.";
+"Uploading avatar" = "프로필_사진을 업로딩 중입니다.";
+"Avatar uploaded successfully" = "프로필_사진이 성공적으로 업로드 되었습니다.";
+"Please enter a valid nickname, 2 to 10 characters" = "2자 ~ 10자 사이의 닉네임을 설정해주세요.";
+"Please enter a valid email address" = "유효한 이메일 주소를 입력해주세요.";
+"Please enter a valid mobile number" = "유효한 전화번호를 입력해주세요.";
+"Please enter valid user information" = "유효한 사용자 정보를 입력해주세요.";
+"Update completed" = "업데이트가 완료되었습니다.";
+"Basic information" = "기본 정보";
+
+
+// order
+"Order is in use" = "주문이 사용 중입니다";
+"Order number" = "주문 번호";
+"Device ID" = "디바이스 ID";
+"Total cost" = "사용료";
+"Order details" = "세부사항";
+"Connection failed, please try again" = "연결 실패. 다시 시도해주세요.";
+"Payment successful" = "결제완료";
+"Payment failed, please try again" = "결제 실패. 다시 시도해주세요.";
+"Refund request submitted" = "환불 요청 제출";
+"Refund in progress" = "환불 처리 중";
+"Refund completed" = "환불 완료";
+"A deposit is required before the rental, and the deposit can be refunded after the mobile power is returned" = "대여하기 전, 보증금이 필요합니다. 보증금은 보조배터리가 반납된 후 자동으로 반납됩니다.";
+"Cash Pledge" = "보증금";
+"Lease time" = "대여 시간";
+"Return Time" = "반납 시간";
+"Payment Amount" = "결제 금액";
+"Charging Treasure ID" = "스테이션 ID";
+"Device Address" = "디바이스 주소";
+"Payment Method" = "결제 방법";
+"Confirm Payment" = "결제 확인";
+"Credit Card" = "신용카드";
+"Card Number" = "카드번호";
+"Expire Date" = "만기날짜";
+"Please fill in the correct credit card information" = "올바른 신용카드 정보를 입력해주세요.";
+"Apple Pay does not have a credit card that can be paid" = "Apple Pay에는 지불 할 수있는 신용 카드가 없습니다";
+"Apple Pay is not supported" = "Apple Pay는 지원되지 않습니다";
+"Pay the deposit" = "보증금 지불";
+"Cancel payment" = "결제 취소";
+"Please fill in the correct credit card number" = "올바른 신용카드 정보를 입력해주세요.";
+"Credit card number does not match expiration date" = "신용카드 번호와 만기날짜가 맞지 않습니다.";
+"Credit card CCV error" = "잘못된 CVC 정보";
+"The operation has reached the limit of 10 times today" = "하루 10번의 사용횟수 제한을 모두 사용하셨습니다.";
+"CVC" = "신용카드 CVC";
+"Pay" = "결제";
+"Pay a deposit of ₩ 2000 and use it immediately" = "2,000 위안 보증금을 지불하고 즉시 사용하십시오";
+"Please agree to the deposit agreement first" = "보증금 관련 이용약관에 동의해주세요.";
+"Click to confirm payment, you have read and agreed to the 《User Agreement》" = "이용약관 전체 동의를 하신 후 결제확인을 클릭해주세요.";
+"Cost" = "가격";
+"yuan" = "원";
+"hour" = "시간";
+"day" = "일";
+"I agree to the full terms and conditions" = "파워킥 이용약관 전체 동의합니다";
+"View Terms of Service (Required)" = "파워킥 서비스 이용약관 (필수) 보기";
+"View privacy policy (required)" = "개인정보 처리방침 (필수) 보기";
+"Date of birth" = "생년월일";
+"Date of birth,eg:19940112 -> 940112" = "생년월일 6자리 입력해 주세요";
+"First two digits of password" = "비밀번호 앞 두자리";
+"Please enter the first two digits of the password" = "비밀번호의 처음 두 자리를 입력하십시오";
+"Add" = "추가";
+"To be paid" = "결제 대기";
+"Done" = "완료";
+"Using" = "사용중";
+"Pending charge" = "충전대기";
+"refunded" = "환불완료";
+"Refunding" = "환불중";
+"OK" = "확인";
+"Add Payment Method" = "대표 결제 카드를 등록 후 이용해 주세요.";
+"Add successfully" = "성공적으로 추가";
+
+// menu
+"Basic Information" = "기본정보";
+"Order Record" = "사용내역";
+"User Agreement" = "이용약관";
+"Sign out" = "로그아웃";
+"Switch Language" = "언어변경";
+"Refund of reposit" = "보증금 반환";
+"Save" = "저장";
+"Terms & Conditions" = "이용 약관";
+
+// about
+"About Us" = "회사 소개";
+
+
+// alert
+"Cancel" = "취소";
+"Turn on Location Services and allow PowerKick Confirm your location" = "GPS 기능을 활성화 해주세요.";
+"Go to settings" = "설정 가기";
+"Confirm Exit" = "취소하시겠습니까?";
+"Confirm" = "확인";
+"Set to allow PowerKick access to the camera" = "파워킥이 카메라에 접근할 수 있도록 합니다.";
+"Set to allow PowerKick access to photos" = "파워킥이 사진첩에 접근할 수 있도록 합니다.";
+
+// empty
+"Loading failed" = "로딩 실패";
+"No related content found" = "관련 사항 발견 실패";
+"No Data" = "데이터가 없습니다";
+"Retry" = "재시도";

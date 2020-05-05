@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "113415083847",
+    "firebase_url": "https://powerkick-1fd94.firebaseio.com",
+    "project_id": "powerkick-1fd94",
+    "storage_bucket": "powerkick-1fd94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113415083847:android:d02c9f15ef6589cb5d5e62",
+        "android_client_info": {
+          "package_name": "com.powerkick.corp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113415083847-jh4lip0pr9cvt73gmjj85dj77if7k25c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJHyg48Q4sXNeSEq_vXBOdYa0LYIKnvGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113415083847-jh4lip0pr9cvt73gmjj85dj77if7k25c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "113415083847-df5s50itsun7co8l3o4151lkvv1vki74.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.co.powerKick"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
